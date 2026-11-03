@@ -8,8 +8,9 @@
 </p>
 
 <p align="center">
+  <a href="https://catbuddy.ganzhibin.icu/"><strong>catbuddy ↗</strong></a> &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://flowing-resume.ganzhibin.icu/"><strong>流萤简历 ↗</strong></a> &nbsp;&nbsp; / &nbsp;&nbsp;
   <a href="https://next.ganzhibin.icu/"><strong>淘气工具铺 ↗</strong></a> &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://flowing-resume.ganzhibin.icu"><strong>流萤简历 ↗</strong></a> &nbsp;&nbsp; / &nbsp;&nbsp;
   <a href="https://juejin.cn/user/3806962499980916/posts"><strong>技术写作 ↗</strong></a> &nbsp;&nbsp; / &nbsp;&nbsp;
   <a href="https://gitee.com/luli1314520"><strong>Gitee ↗</strong></a>
 </p>
