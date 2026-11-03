@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="290" viewBox="0 0 600 290" role="img" aria-labelledby="title description">
+  <title id="title">taoqi-pet — A little company for your desktop.</title>
+  <desc id="description">A free desktop companion with interaction, focus timers and a local pet studio. The illustration is a decorative cat.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1a1928"/><stop offset="1" stop-color="#131b2c"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#a78bfa" stop-opacity=".18"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="599" height="289" rx="16" fill="url(#bg)" stroke="#3c3554"/>
+  <circle cx="460" cy="161" r="125" fill="url(#halo)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="31" y="40" font-size="10" letter-spacing="2" fill="#c1a8ff">02 / DESKTOP COMPANION</text>
+    <text x="28" y="104" font-size="43" font-weight="750" letter-spacing="-1.5" fill="#f2f0ff">taoqi-pet</text>
+    <text x="31" y="141" font-size="15" fill="#b7b2d0">A little company.</text><text x="31" y="164" font-size="15" fill="#b7b2d0">A quieter desktop.</text>
+    <text x="31" y="235" font-size="11" fill="#948bab">ELECTRON / REACT / LOCAL FIRST</text><text x="556" y="41" font-size="22" fill="#c1a8ff">↗</text>
+  </g>
+  <g transform="translate(374 83)">
+    <ellipse cx="78" cy="143" rx="66" ry="9" fill="#080e1c"/>
+    <path d="M125 115Q164 72 167 109Q170 133 133 131" fill="none" stroke="#a896d6" stroke-width="13" stroke-linecap="round"/>
+    <rect x="31" y="73" width="97" height="70" rx="32" fill="#bdb0e7"/>
+    <path d="M27 48L28 4L63 27Q81 20 99 28L128 5L134 54Q148 109 83 112Q16 108 27 48" fill="#d8cff3"/>
+    <path d="M35 16L38 44L55 31M119 18L104 33L126 46" fill="#ae94c9"/>
+    <ellipse cx="58" cy="66" rx="4" ry="6" fill="#302941"/><ellipse cx="105" cy="66" rx="4" ry="6" fill="#302941"/>
+    <path d="M76 78L83 84L90 78Z" fill="#a97899"/>
+    <path d="M83 84Q78 94 71 87M83 84Q88 94 95 87" fill="none" stroke="#685275" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="45" cy="82" rx="9" ry="4" fill="#f6aabd" fill-opacity=".6"/><ellipse cx="118" cy="82" rx="9" ry="4" fill="#f6aabd" fill-opacity=".6"/>
+    <path d="M-2 23H8M3 18V28M155 45H165M160 40V50" stroke="#c1a8ff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="290" viewBox="0 0 600 290" role="img" aria-labelledby="title description">
+  <title id="title">小账兜 — Say it. Save it.</title>
+  <desc id="description">AI-powered mobile bookkeeping, built with React Native, Express and PostgreSQL. Chat and receipt illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#171e2b"/><stop offset="1" stop-color="#11252a"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#5eead4" stop-opacity=".13"/><stop offset="1" stop-color="#5eead4" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="599" height="289" rx="16" fill="url(#bg)" stroke="#2e4851"/>
+  <circle cx="470" cy="155" r="130" fill="url(#halo)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="31" y="40" font-size="10" letter-spacing="2" fill="#79e5d3">03 / AI BOOKKEEPING</text>
+    <text x="28" y="104" font-size="43" font-weight="750" letter-spacing="-1.5" fill="#effffa">小账兜</text>
+    <text x="31" y="141" font-size="15" fill="#aac6cc">Say it. Save it.</text><text x="31" y="164" font-size="15" fill="#aac6cc">Your everyday AI ledger.</text>
+    <text x="31" y="235" font-size="11" fill="#84a6b1">REACT NATIVE / EXPRESS / POSTGRES</text><text x="556" y="41" font-size="22" fill="#79e5d3">↗</text>
+  </g>
+  <g transform="translate(386 74)">
+    <path d="M18 17H144V156L133 148L122 156L111 148L100 156L89 148L78 156L67 148L56 156L45 148L34 156L18 148Z" fill="#1d3b45" stroke="#49717b"/>
+    <path d="M39 45H91M39 61H120M39 76H103" stroke="#57828a" stroke-width="4" stroke-linecap="round"/>
+    <rect x="-21" y="91" width="139" height="50" rx="12" fill="#69dcc4"/><path d="M-3 137L-9 151L15 138" fill="#69dcc4"/>
+    <g fill="#103e39"><circle cx="15" cy="115" r="4"/><circle cx="31" cy="115" r="4"/><circle cx="47" cy="115" r="4"/></g>
+    <circle cx="130" cy="31" r="24" fill="#6de5cb"/><path d="M120 31L127 38L141 23" stroke="#143e3b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

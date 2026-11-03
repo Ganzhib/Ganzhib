@@ -1,73 +1,77 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Hi, I'm Ganzhibin. Full stack developer and AI builder. From an idea to something useful." width="100%" />
+  <img src="./assets/header.svg" alt="Ganzhibin — Full Stack × AI × Product. Ideas. Systems. Products." width="100%" />
 </p>
 
 <p align="center">
-  <strong>全栈开发 · AI 应用 · 桌面与移动端</strong><br />
-  喜欢把想法做成能用的产品，也在意每一次点击的体验。
+  <strong>从交互界面到 Agent Runtime，把想法做成完整的产品。</strong><br />
+  <sub>TypeScript / React / Node.js · Desktop / Web / Mobile</sub>
 </p>
 
 <p align="center">
-  <a href="https://next.ganzhibin.icu/">淘气工具铺</a> &nbsp; / &nbsp;
-  <a href="https://resume.ganzhibin.icu/">流萤简历</a> &nbsp; / &nbsp;
-  <a href="https://juejin.cn/user/3806962499980916/posts">掘金博客</a> &nbsp; / &nbsp;
-  <a href="https://gitee.com/luli1314520">Gitee</a>
+  <a href="https://next.ganzhibin.icu/"><strong>淘气工具铺 ↗</strong></a> &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://resume.ganzhibin.icu/"><strong>流萤简历 ↗</strong></a> &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://juejin.cn/user/3806962499980916/posts"><strong>技术写作 ↗</strong></a> &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://gitee.com/luli1314520"><strong>Gitee ↗</strong></a>
 </p>
 
 <br />
 
-### 关于我
+### 01 &nbsp; / &nbsp; SELECTED WORK
 
-我是 Ganzhibin，喜欢做有实际用途、也有一点趣味的应用。
+<a href="https://github.com/Ganzhib/catbuddy">
+  <img src="./assets/catbuddy.svg" alt="catbuddy — One Runtime. Every Screen. 桌面优先的 AI 编程助手，连接本地执行与多端协同。" width="100%" />
+</a>
 
-- **从界面到服务端**：用 React、TypeScript 和 Node.js 串起完整的产品体验。
-- **把 AI 接进工作流**：探索 Agent Runtime、工具调用和跨设备协同，让 AI 能参与具体任务。
-- **也做一些小而有趣的东西**：桌面宠物、移动端记账，以及日常用得上的工具。
-- **边做边记录**：在 [掘金](https://juejin.cn/user/3806962499980916/posts) 分享学习和实践。
+**catbuddy · 把 AI 编程助手做成一套系统。** 共享 UI 通过不同传输层连接桌面 Runtime，Gateway 协调跨端会话；执行引擎管理上下文、工具调用、长期记忆和任务生命周期。
+
+<a href="https://github.com/Ganzhib/catbuddy#architecture">系统架构 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Ganzhib/catbuddy#agent-runtime">Agent 引擎 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Ganzhib/catbuddy">浏览源码 ↗</a>
 
 <br />
-
-### 最近在做的作品
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3>01 / catbuddy</h3>
-      <p><strong>One Runtime. Every Screen.</strong></p>
-      <p>桌面优先的 AI 编程助手。把本地执行、工具调用、长期记忆和跨端会话连接起来，从桌面、浏览器和手机进入同一套工作流。</p>
-      <p><code>TypeScript</code> <code>Electron</code> <code>React</code></p>
-      <p><a href="https://github.com/Ganzhib/catbuddy">查看源码 →</a></p>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-pet.svg" alt="淘气桌宠 — 你忙它陪，你摸它回。" width="100%" /></a>
+      <p><strong>淘气桌宠 · 给桌面留一点陪伴。</strong></p>
+      <p>轻量免费的桌面伙伴，支持互动、专注计时和本地宠物工坊。围绕透明窗口、交互状态、本地数据与应用更新，打磨完整的桌面体验。</p>
+      <p><a href="https://github.com/Ganzhib/taoqi-pet">浏览源码 ↗</a> &nbsp; · &nbsp; <a href="https://ganzhib.github.io/taoqi-pet/">下载体验 ↗</a></p>
     </td>
-    <td width="33%" valign="top">
-      <h3>02 / 淘气桌宠</h3>
-      <p><strong>你忙它陪，你摸它回。</strong></p>
-      <p>一只轻量、免费的桌面小伙伴。支持互动、换装、专注计时和本地宠物工坊，让桌面多一点陪伴，也留一点安静。</p>
-      <p><code>Electron</code> <code>React</code> <code>Vite</code></p>
-      <p><a href="https://github.com/Ganzhib/taoqi-pet">查看源码 →</a> &nbsp; <a href="https://ganzhib.github.io/taoqi-pet/">下载体验 ↗</a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>03 / 小账兜</h3>
-      <p><strong>聊一句，记一笔。</strong></p>
-      <p>通过自然语言对话记录账单的移动应用。从 AI 解析、用户认证到数据存储，实践一套完整的移动端与服务端链路。</p>
-      <p><code>React Native</code> <code>Express</code> <code>PostgreSQL</code></p>
-      <p><a href="https://github.com/Ganzhib/ai-bill-rn">查看源码 →</a></p>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Ganzhib/ai-bill-rn"><img src="./assets/ai-bill.svg" alt="小账兜 — 聊一句，记一笔。" width="100%" /></a>
+      <p><strong>小账兜 · 把 AI 放进日常。</strong></p>
+      <p>自然语言驱动的移动端记账应用。从 React Native 界面到 Express 服务、身份认证与 PostgreSQL 存储，串起 AI 解析和账单管理的完整链路。</p>
+      <p><a href="https://github.com/Ganzhib/ai-bill-rn">浏览源码 ↗</a></p>
     </td>
   </tr>
 </table>
 
 <br />
 
-### 常用技术
+### 02 &nbsp; / &nbsp; ENGINEERING FOCUS
 
-| 方向 | 工具与技术 |
+| 关注的层次 | 具体在做什么 |
 | :--- | :--- |
-| 界面与交互 | TypeScript · React · Tailwind CSS · Vite |
-| 桌面与移动端 | Electron · React Native · Expo |
-| 服务端与数据 | Node.js · Express · Fastify · PostgreSQL · MySQL |
-| AI 与工具 | Agent Runtime · MCP · LLM 工具调用 |
+| **Agent Systems** | 显式生命周期、上下文预算与压缩、工具编排、长期记忆、MCP / Skills |
+| **Cross-platform** | 共享 React UI、IPC / HTTP / WebSocket 传输、Gateway 会话协调、桌面与移动端入口 |
+| **Product Engineering** | 交互与状态设计、认证与数据链路、本地持久化、桌面打包与更新 |
+
+关心功能背后的**职责边界、状态和生命周期**，也关心用户点下按钮后的每一步体验。
 
 <br />
 
+### 03 &nbsp; / &nbsp; TOOLBOX
+
+**Languages &amp; UI** &nbsp; <code>TypeScript</code> <code>JavaScript</code> <code>React</code> <code>Tailwind CSS</code> <code>Vite</code>
+
+**Desktop &amp; Mobile** &nbsp; <code>Electron</code> <code>React Native</code> <code>Expo</code>
+
+**Server &amp; Data** &nbsp; <code>Node.js</code> <code>Fastify</code> <code>Express</code> <code>PostgreSQL</code> <code>MySQL</code>
+
+<br />
+
+---
+
 <p align="center">
-  <sub>保持好奇，把下一件小事做好。<br />Stay curious. Keep building.</sub>
+  <strong>Build with intent. Ship with care.</strong><br />
+  <sub>保持好奇，把下一件作品做好。 · <a href="https://juejin.cn/user/3806962499980916/posts">在掘金记录构建过程 ↗</a></sub>
 </p>
