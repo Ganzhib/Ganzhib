@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Ganzhibin — Full Stack × AI × Product. Ideas. Systems. Products." width="100%" />
+  <img src="./assets/hero.svg" alt="Ganzhibin — Full Stack × AI × Product. Ideas. Systems. Products." width="100%" />
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-pet.svg" alt="淘气桌宠 — 咕咕嘎嘎小男孩，陪在你的桌边。" width="100%" /></a>
+      <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-gugugaga.svg" alt="淘气桌宠 — 咕咕嘎嘎小男孩，陪在你的桌边。" width="100%" /></a>
       <p><strong>淘气桌宠 · 给桌面留一点陪伴。</strong></p>
       <p>以咕咕嘎嘎小男孩为主角的免费桌面伙伴，支持互动、专注计时和本地宠物工坊。围绕透明窗口、交互状态、本地数据与应用更新，打磨完整的桌面体验。</p>
       <p><a href="https://github.com/Ganzhib/taoqi-pet">浏览源码 ↗</a> &nbsp; · &nbsp; <a href="https://ganzhib.github.io/taoqi-pet/">下载体验 ↗</a></p>
