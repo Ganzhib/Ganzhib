@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Ganzhibin — Full Stack × AI × Product. Ideas. Systems. Products." width="100%" />
+  <img src="./assets/hero-light.svg" alt="Ganzhibin — Full Stack × AI × Product. Ideas. Systems. Products." width="100%" />
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 ### 01 &nbsp; / &nbsp; SELECTED WORK
 
 <a href="https://github.com/Ganzhib/catbuddy">
-  <img src="./assets/catbuddy.svg" alt="catbuddy — One Runtime. Every Screen. 桌面优先的 AI 编程助手，连接本地执行与多端协同。" width="100%" />
+  <img src="./assets/catbuddy-showcase.svg" alt="catbuddy — One Runtime. Every Screen. 桌面优先的 AI 编程助手，连接本地执行与多端协同。" width="100%" />
 </a>
 
 **catbuddy · 把 AI 编程助手做成一套系统。** 共享 UI 通过不同传输层连接桌面 Runtime，Gateway 协调跨端会话；执行引擎管理上下文、工具调用、长期记忆和任务生命周期。
@@ -40,8 +40,8 @@
 <br />
 
 <p>
-  <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-gugugaga.svg" alt="淘气桌宠 — 咕咕嘎嘎小男孩，陪在你的桌边。" width="49%" /></a>
-  <a href="https://github.com/Ganzhib/ai-bill-rn"><img src="./assets/ai-bill.svg" alt="小账兜 — 聊一句，记一笔。" width="49%" /></a>
+  <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-pet-light.svg" alt="淘气桌宠 — 咕咕嘎嘎小男孩，陪在你的桌边。" width="49%" /></a>
+  <a href="https://github.com/Ganzhib/ai-bill-rn"><img src="./assets/ai-bill-light.svg" alt="小账兜 — 聊一句，记一笔。" width="49%" /></a>
 </p>
 
 **淘气桌宠 · 给桌面留一点陪伴。** 以咕咕嘎嘎小男孩为主角的免费桌面伙伴，支持互动、专注计时和本地宠物工坊。围绕透明窗口、交互状态、本地数据与应用更新，打磨完整的桌面体验。
