@@ -29,32 +29,36 @@
 
 <br />
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-gugugaga.svg" alt="淘气桌宠 — 咕咕嘎嘎小男孩，陪在你的桌边。" width="100%" /></a>
-      <p><strong>淘气桌宠 · 给桌面留一点陪伴。</strong></p>
-      <p>以咕咕嘎嘎小男孩为主角的免费桌面伙伴，支持互动、专注计时和本地宠物工坊。围绕透明窗口、交互状态、本地数据与应用更新，打磨完整的桌面体验。</p>
-      <p><a href="https://github.com/Ganzhib/taoqi-pet">浏览源码 ↗</a> &nbsp; · &nbsp; <a href="https://ganzhib.github.io/taoqi-pet/">下载体验 ↗</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Ganzhib/ai-bill-rn"><img src="./assets/ai-bill.svg" alt="小账兜 — 聊一句，记一笔。" width="100%" /></a>
-      <p><strong>小账兜 · 把 AI 放进日常。</strong></p>
-      <p>自然语言驱动的移动端记账应用。从 React Native 界面到 Express 服务、身份认证与 PostgreSQL 存储，串起 AI 解析和账单管理的完整链路。</p>
-      <p><a href="https://github.com/Ganzhib/ai-bill-rn">浏览源码 ↗</a></p>
-    </td>
-  </tr>
-</table>
+<a href="https://flowing-resume.ganzhibin.icu/">
+  <img src="./assets/flowing-resume.svg" alt="流萤简历 — 你的经历，与 AI 一起写得更好。AI 简历协作、AI 文档、面试练习与多格式导出。" width="100%" />
+</a>
+
+**流萤简历 · 你的经历，与 AI 一起写得更好。** 我的 AI 求职产品，围绕真实经历，串联简历编辑与 Agent 协作、可继续编辑的 AI 文档、面试练习及多格式导出。通过 AI 连接器，把简历、资料和求职准备接入熟悉的 AI 工作流。
+
+<a href="https://flowing-resume.ganzhibin.icu/">体验官网 ↗</a> &nbsp; · &nbsp; <a href="https://flowing-resume.ganzhibin.icu/zh#features">编辑与生成 ↗</a> &nbsp; · &nbsp; <a href="https://flowing-resume.ganzhibin.icu/zh#ai-practice">AI 求职准备 ↗</a>
+
+<br />
+
+<p>
+  <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-gugugaga.svg" alt="淘气桌宠 — 咕咕嘎嘎小男孩，陪在你的桌边。" width="49%" /></a>
+  <a href="https://github.com/Ganzhib/ai-bill-rn"><img src="./assets/ai-bill.svg" alt="小账兜 — 聊一句，记一笔。" width="49%" /></a>
+</p>
+
+**淘气桌宠 · 给桌面留一点陪伴。** 以咕咕嘎嘎小男孩为主角的免费桌面伙伴，支持互动、专注计时和本地宠物工坊。围绕透明窗口、交互状态、本地数据与应用更新，打磨完整的桌面体验。
+
+<a href="https://github.com/Ganzhib/taoqi-pet">浏览源码 ↗</a> &nbsp; · &nbsp; <a href="https://ganzhib.github.io/taoqi-pet/">下载体验 ↗</a>
+
+**小账兜 · 把 AI 放进日常。** 自然语言驱动的移动端记账应用。从 React Native 界面到 Express 服务、身份认证与 PostgreSQL 存储，串起 AI 解析和账单管理的完整链路。
+
+<a href="https://github.com/Ganzhib/ai-bill-rn">浏览源码 ↗</a>
 
 <br />
 
 ### 02 &nbsp; / &nbsp; ENGINEERING FOCUS
 
-| 关注的层次 | 具体在做什么 |
-| :--- | :--- |
-| **Agent Systems** | 显式生命周期、上下文预算与压缩、工具编排、长期记忆、MCP / Skills |
-| **Cross-platform** | 共享 React UI、IPC / HTTP / WebSocket 传输、Gateway 会话协调、桌面与移动端入口 |
-| **Product Engineering** | 交互与状态设计、认证与数据链路、本地持久化、桌面打包与更新 |
+- **Agent Systems** · 显式生命周期、上下文预算与压缩、工具编排、长期记忆、MCP / Skills
+- **Cross-platform** · 共享 React UI、IPC / HTTP / WebSocket 传输、Gateway 会话协调、桌面与移动端入口
+- **Product Engineering** · 交互与状态设计、认证与数据链路、本地持久化、桌面打包与更新
 
 关心功能背后的**职责边界、状态和生命周期**，也关心用户点下按钮后的每一步体验。
 
