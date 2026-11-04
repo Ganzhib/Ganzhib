@@ -19,13 +19,13 @@
 
 ### 01 &nbsp; / &nbsp; SELECTED WORK
 
-<a href="https://github.com/Ganzhib/catbuddy">
+<a href="https://catbuddy.ganzhibin.icu/">
   <img src="./assets/catbuddy-showcase.svg" alt="catbuddy — One Runtime. Every Screen. 桌面优先的 AI 编程助手，连接本地执行与多端协同。" width="100%" />
 </a>
 
 **catbuddy · 把 AI 编程助手做成一套系统。** 共享 UI 通过不同传输层连接桌面 Runtime，Gateway 协调跨端会话；执行引擎管理上下文、工具调用、长期记忆和任务生命周期。
 
-<a href="https://github.com/Ganzhib/catbuddy#architecture">系统架构 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Ganzhib/catbuddy#agent-runtime">Agent 引擎 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Ganzhib/catbuddy">浏览源码 ↗</a>
+<a href="https://catbuddy.ganzhibin.icu/">体验官网 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Ganzhib/catbuddy#architecture">系统架构 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Ganzhib/catbuddy#agent-runtime">Agent 引擎 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Ganzhib/catbuddy">浏览源码 ↗</a>
 
 <br />
 
