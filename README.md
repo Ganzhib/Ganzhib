@@ -23,38 +23,76 @@
 
 ### 01 &nbsp; / &nbsp; SELECTED WORK
 
-<a href="https://catbuddy.ganzhibin.icu/">
-  <img src="./assets/catbuddy-showcase.svg" alt="catbuddy — One Runtime. Every Screen. 桌面优先的 AI 编程助手，连接本地执行与多端协同。" width="100%" />
-</a>
-
-**catbuddy · 把 AI 编程助手做成一套系统。** 共享 UI 通过不同传输层连接桌面 Runtime，Gateway 协调跨端会话；执行引擎管理上下文、工具调用、长期记忆和任务生命周期。
-
-<a href="https://catbuddy.ganzhibin.icu/">体验官网 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Ganzhib/catbuddy#architecture">系统架构 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Ganzhib/catbuddy#agent-runtime">Agent 引擎 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Ganzhib/catbuddy">浏览源码 ↗</a>
-
-<br />
-
-<a href="https://flowing-resume.ganzhibin.icu/">
-  <img src="./assets/flowing-resume.svg" alt="流萤简历 — 你的经历，与 AI 一起写得更好。AI 简历协作、AI 文档、面试练习与多格式导出。" width="100%" />
-</a>
-
-**流萤简历 · 你的经历，与 AI 一起写得更好。** 我的 AI 求职产品，围绕真实经历，串联简历编辑与 Agent 协作、可继续编辑的 AI 文档、面试练习及多格式导出。通过 AI 连接器，把简历、资料和求职准备接入熟悉的 AI 工作流。
-
-<a href="https://flowing-resume.ganzhibin.icu/">体验官网 ↗</a> &nbsp; · &nbsp; <a href="https://flowing-resume.ganzhibin.icu/zh#features">编辑与生成 ↗</a> &nbsp; · &nbsp; <a href="https://flowing-resume.ganzhibin.icu/zh#ai-practice">AI 求职准备 ↗</a>
-
-<br />
-
-<p>
-  <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-pet-light.svg" alt="淘气桌宠 — 咕咕嘎嘎小男孩，陪在你的桌边。" width="49%" /></a>
-  <a href="https://github.com/Ganzhib/ai-bill-rn"><img src="./assets/ai-bill-light.svg" alt="小账兜 — 聊一句，记一笔。" width="49%" /></a>
-</p>
-
-**淘气桌宠 · 给桌面留一点陪伴。** 以咕咕嘎嘎小男孩为主角的免费桌面伙伴，支持互动、专注计时和本地宠物工坊。围绕透明窗口、交互状态、本地数据与应用更新，打磨完整的桌面体验。
-
-<a href="https://github.com/Ganzhib/taoqi-pet">浏览源码 ↗</a> &nbsp; · &nbsp; <a href="https://ganzhib.github.io/taoqi-pet/">下载体验 ↗</a>
-
-**小账兜 · 把 AI 放进日常。** 自然语言驱动的移动端记账应用。从 React Native 界面到 Express 服务、身份认证与 PostgreSQL 存储，串起 AI 解析和账单管理的完整链路。
-
-<a href="https://github.com/Ganzhib/ai-bill-rn">浏览源码 ↗</a>
+<table>
+  <thead>
+    <tr>
+      <th align="left">项目</th>
+      <th align="left">介绍与入口</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="40%" valign="top">
+        <a href="https://catbuddy.ganzhibin.icu/"><img src="./assets/catbuddy-showcase.svg" alt="catbuddy — One Runtime. Every Screen." width="320" /></a><br />
+        <strong>catbuddy</strong><br />
+        <sub>AI Coding · Agent Runtime</sub>
+      </td>
+      <td valign="top">
+        <strong>把 AI 编程助手做成一套系统。</strong><br /><br />
+        共享 UI 连接桌面 Runtime，Gateway 协调跨端会话；执行引擎管理上下文、工具调用、长期记忆和任务生命周期。<br /><br />
+        <a href="https://catbuddy.ganzhibin.icu/">体验官网 ↗</a> · <a href="https://github.com/Ganzhib/catbuddy#architecture">系统架构 ↗</a> · <a href="https://github.com/Ganzhib/catbuddy#agent-runtime">Agent 引擎 ↗</a> · <a href="https://github.com/Ganzhib/catbuddy">源码 ↗</a>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%" valign="top">
+        <a href="https://flowing-resume.ganzhibin.icu/"><img src="./assets/flowing-resume.svg" alt="流萤简历 — 你的经历，与 AI 一起写得更好。" width="320" /></a><br />
+        <strong>流萤简历</strong><br />
+        <sub>AI Resume · Career Product</sub>
+      </td>
+      <td valign="top">
+        <strong>你的经历，与 AI 一起写得更好。</strong><br /><br />
+        围绕真实经历，串联简历编辑与 Agent 协作、可继续编辑的 AI 文档、面试练习及多格式导出，通过 AI 连接器接入熟悉的工作流。<br /><br />
+        <a href="https://flowing-resume.ganzhibin.icu/">体验官网 ↗</a> · <a href="https://flowing-resume.ganzhibin.icu/zh#features">编辑与生成 ↗</a> · <a href="https://flowing-resume.ganzhibin.icu/zh#ai-practice">AI 求职准备 ↗</a>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%" valign="top">
+        <a href="https://github.com/Ganzhib/juejin-cli"><img src="./assets/juejin-cli-light.svg" alt="juejin-cli — 从 Markdown 到掘金专栏，让 Agent 直接使用。" width="320" /></a><br />
+        <strong>juejin-cli</strong><br />
+        <sub>Open Source · CLI / SDK / Skill</sub>
+      </td>
+      <td valign="top">
+        <strong>从 Markdown 到掘金专栏。</strong><br /><br />
+        面向开发者与 AI Agent 的掘金开源 CLI，支持文章搜索、Markdown 草稿、图片上传、专栏管理与发布。提供结构化 JSON、命令能力查询和自动安装的 Skill。<br /><br />
+        <a href="https://github.com/Ganzhib/juejin-cli">源码 ↗</a> · <a href="https://ganzhib.github.io/juejin-cli/">安装与场景 ↗</a> · <a href="https://github.com/Ganzhib/juejin-cli/blob/main/docs/ARCHITECTURE.md">架构设计 ↗</a>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%" valign="top">
+        <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-pet-light.svg" alt="淘气桌宠 — 咕咕嘎嘎小男孩，陪在你的桌边。" width="320" /></a><br />
+        <strong>淘气桌宠</strong><br />
+        <sub>Desktop · Local First</sub>
+      </td>
+      <td valign="top">
+        <strong>给桌面留一点陪伴。</strong><br /><br />
+        以咕咕嘎嘎小男孩为主角的免费桌面伙伴，支持互动、专注计时和本地宠物工坊，打磨透明窗口、交互状态与本地数据体验。<br /><br />
+        <a href="https://github.com/Ganzhib/taoqi-pet">源码 ↗</a> · <a href="https://ganzhib.github.io/taoqi-pet/">下载体验 ↗</a>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%" valign="top">
+        <a href="https://github.com/Ganzhib/ai-bill-rn"><img src="./assets/ai-bill-light.svg" alt="小账兜 — 聊一句，记一笔。" width="320" /></a><br />
+        <strong>小账兜</strong><br />
+        <sub>Mobile · AI Bookkeeping</sub>
+      </td>
+      <td valign="top">
+        <strong>把 AI 放进日常。</strong><br /><br />
+        自然语言驱动的移动端记账应用。从 React Native 界面到 Express 服务、身份认证与 PostgreSQL 存储，串起 AI 解析和账单管理的完整链路。<br /><br />
+        <a href="https://github.com/Ganzhib/ai-bill-rn">源码 ↗</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <br />
 

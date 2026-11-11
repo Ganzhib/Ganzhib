@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">juejin-cli — From Markdown to your column.</title>
+  <desc id="description">An open source Juejin CLI for developers and AI agents. Markdown drafts, image uploads and column publishing, with a TypeScript SDK and bundled Skill.</desc>
+  <defs>
+    <linearGradient id="wash" x2="1" y2="1"><stop stop-color="#eff8ff"/><stop offset="1" stop-color="#e8faf4"/></linearGradient>
+    <linearGradient id="flow" x2="1"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#0d9488"/></linearGradient>
+  </defs>
+  <path d="M786 36C860 10 977 13 1067 48C1157 83 1186 160 1139 220C1092 280 1005 255 920 274C835 293 737 263 712 196C687 129 712 62 786 36Z" fill="url(#wash)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="32" y="39" font-size="11" letter-spacing="2.6" font-weight="600" fill="#0891b2">OPEN SOURCE / AGENT TOOLS</text>
+    <text x="28" y="112" font-size="54" font-weight="750" letter-spacing="-1.5" fill="#173451">juejin-cli<tspan fill="#0891b2">.</tspan></text>
+    <text x="32" y="159" font-size="23" font-weight="500" fill="#244765">从 Markdown 到掘金专栏。</text>
+    <path d="M33 177C98 168 177 172 242 177" fill="none" stroke="#99eadb" stroke-width="4" stroke-linecap="round"/>
+    <text x="32" y="215" font-size="15" fill="#526d83">草稿 · 图片 · 专栏 · 发布 / 为 AI Agent 提供 Skill</text>
+    <text x="32" y="267" font-size="11" letter-spacing="1.5" fill="#326d8b">TYPESCRIPT / CLI + SDK + SKILL</text>
+  </g>
+  <path d="M750 100C792 47 1095 38 1125 160C1158 292 862 286 792 224" fill="none" stroke="url(#flow)" stroke-width="1.5" stroke-dasharray="3 7" opacity=".5"/>
+  <g transform="translate(788 67)">
+    <rect width="314" height="174" rx="15" fill="#fff" stroke="#a4cce0" stroke-width="1.5"/>
+    <path d="M0 37H314" stroke="#d7e9f2"/>
+    <circle cx="19" cy="19" r="4" fill="#f5bb9d"/><circle cx="33" cy="19" r="4" fill="#d5de9b"/><circle cx="47" cy="19" r="4" fill="#8cd3bd"/>
+    <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15">
+      <text x="20" y="73" fill="#1d4ed8">$ juejin draft create</text>
+      <text x="36" y="99" fill="#526d83">article.md --json</text>
+      <text x="20" y="136" fill="#0f766e">{ ok: true, data: ... }</text>
+    </g>
+    <g transform="translate(260 148)">
+      <circle r="25" fill="#d5f5eb" stroke="#8cd3bd"/>
+      <path d="M-10 0L-3 7L11-8" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
