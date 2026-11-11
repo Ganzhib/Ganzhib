@@ -15,6 +15,10 @@
   <a href="https://gitee.com/luli1314520"><strong>Gitee ↗</strong></a>
 </p>
 
+<p align="center">
+  <strong>WeChat / 微信</strong> &nbsp; <code>wxid_bnx635aq9b1j22</code>
+</p>
+
 <br />
 
 ### 01 &nbsp; / &nbsp; SELECTED WORK
