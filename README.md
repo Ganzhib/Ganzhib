@@ -69,6 +69,7 @@
     </tr>
     <tr>
       <td width="40%" valign="top">
+        <a href="https://ganzhib.github.io/wemedia-cli/"><img src="https://ganzhib.github.io/wemedia-cli/assets/wm-flow.svg" alt="wm · WeMedia — 一个入口，连接多平台内容发布。" width="320" /></a><br />
         <a href="https://github.com/Ganzhib/wemedia-cli"><strong>wm · WeMedia</strong></a><br />
         <sub>Open Source · CLI / AI Publishing</sub>
       </td>
