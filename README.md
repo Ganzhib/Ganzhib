@@ -69,6 +69,17 @@
     </tr>
     <tr>
       <td width="40%" valign="top">
+        <a href="https://github.com/Ganzhib/wemedia-cli"><strong>wm · WeMedia</strong></a><br />
+        <sub>Open Source · CLI / AI Publishing</sub>
+      </td>
+      <td valign="top">
+        <strong>把时间留给创作，把发布交给 wm。</strong><br /><br />
+        面向 AI Agent 的多平台自媒体发布 CLI，支持微信公众号、小红书、掘金与知乎，串联内容排版、图片上传、草稿管理、发表与结果查询。各平台按自身能力提供支持，账号登录状态保存在本机。<br /><br />
+        <a href="https://github.com/Ganzhib/wemedia-cli">源码 ↗</a> · <a href="https://ganzhib.github.io/wemedia-cli/">安装与场景 ↗</a> · <a href="https://github.com/Ganzhib/wemedia-cli/blob/main/docs/AI_USAGE.md">AI 使用指导 ↗</a>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%" valign="top">
         <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-pet-light.svg" alt="淘气桌宠 — 咕咕嘎嘎小男孩，陪在你的桌边。" width="320" /></a><br />
         <strong>淘气桌宠</strong><br />
         <sub>Desktop · Local First</sub>
