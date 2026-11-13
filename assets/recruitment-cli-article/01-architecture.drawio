@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram name="架构总览 / 三种入口，一套业务服务" id="01-architecture">
+    <mxGraphModel dx="1200" dy="1040" grid="1" gridSize="10" page="1" pageWidth="1200" pageHeight="1040" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="架构总览 / 三种入口，一套业务服务" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#eaf4ff;strokeColor=#7ca8d2;strokeWidth=1.5;spacing=12;text;strokeColor=none;fillColor=none;align=left;fontSize=32;fontStyle=1;spacing=0;">
+          <mxGeometry as="geometry" x="40" y="25" width="1120" height="55" />
+        </mxCell>
+        <mxCell id="subtitle" value="箭头表示主要调用或支撑关系；平台专属协议留在适配器内。" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#eaf4ff;strokeColor=#7ca8d2;strokeWidth=1.5;spacing=12;text;strokeColor=none;fillColor=none;align=left;fontSize=18;fontStyle=0;spacing=0;">
+          <mxGeometry as="geometry" x="40" y="85" width="1120" height="45" />
+        </mxCell>
+        <mxCell id="cli" value="CLI&#10;recruit / Commander" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#eaf4ff;strokeColor=#7ca8d2;strokeWidth=1.5;spacing=12;">
+          <mxGeometry as="geometry" x="60" y="160" width="300" height="90" />
+        </mxCell>
+        <mxCell id="sdk" value="SDK&#10;createRecruitmentClient" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#eaf4ff;strokeColor=#7ca8d2;strokeWidth=1.5;spacing=12;">
+          <mxGeometry as="geometry" x="450" y="160" width="300" height="90" />
+        </mxCell>
+        <mxCell id="agent" value="AI Demo / 第三方 Agent&#10;createRecruitmentTools" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#eaf4ff;strokeColor=#7ca8d2;strokeWidth=1.5;spacing=12;">
+          <mxGeometry as="geometry" x="840" y="160" width="300" height="90" />
+        </mxCell>
+        <mxCell id="client" value="RecruitmentClient&#10;账号锁 → withSession&#10;在会话中调用业务服务" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#eaf4ff;strokeColor=#7ca8d2;strokeWidth=1.5;spacing=12;">
+          <mxGeometry as="geometry" x="400" y="330" width="400" height="100" />
+        </mxCell>
+        <mxCell id="edge-1" value="" edge="1" parent="1" source="cli" target="client" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#617e9b;strokeWidth=2;fontColor=#264562;fontFamily=Microsoft YaHei;fontSize=17;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.15;entryY=0;dashed=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="210" y="290" />
+              <mxPoint x="460" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-2" value="" edge="1" parent="1" source="sdk" target="client" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#617e9b;strokeWidth=2;fontColor=#264562;fontFamily=Microsoft YaHei;fontSize=17;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-3" value="" edge="1" parent="1" source="agent" target="client" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#617e9b;strokeWidth=2;fontColor=#264562;fontFamily=Microsoft YaHei;fontSize=17;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.85;entryY=0;dashed=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="990" y="290" />
+              <mxPoint x="740" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="runtime" value="runtime&#10;账号仓库 / 账号锁&#10;会话与浏览器 / 本地存储" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#f5f7fa;strokeColor=#b4becb;strokeWidth=1.5;spacing=12;">
+          <mxGeometry as="geometry" x="40" y="510" width="300" height="120" />
+        </mxCell>
+        <mxCell id="services" value="services&#10;discover：筛选与排序&#10;OutreachService：计划与回执" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#eaf4ff;strokeColor=#7ca8d2;strokeWidth=1.5;spacing=12;">
+          <mxGeometry as="geometry" x="400" y="510" width="400" height="120" />
+        </mxCell>
+        <mxCell id="core" value="core&#10;Selection / Target&#10;Platform / Capability 契约" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#f5f7fa;strokeColor=#b4becb;strokeWidth=1.5;spacing=12;">
+          <mxGeometry as="geometry" x="860" y="510" width="300" height="120" />
+        </mxCell>
+        <mxCell id="edge-4" value="" edge="1" parent="1" source="client" target="services" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#617e9b;strokeWidth=2;fontColor=#264562;fontFamily=Microsoft YaHei;fontSize=17;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-5" value="" edge="1" parent="1" source="runtime" target="services" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#617e9b;strokeWidth=2;fontColor=#264562;fontFamily=Microsoft YaHei;fontSize=17;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-6" value="" edge="1" parent="1" source="core" target="services" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#617e9b;strokeWidth=2;fontColor=#264562;fontFamily=Microsoft YaHei;fontSize=17;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=1;entryY=0.5;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="session" value="PlatformSession.invoke&#10;核对能力与角色，交给平台 handler" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#eaf4ff;strokeColor=#7ca8d2;strokeWidth=1.5;spacing=12;">
+          <mxGeometry as="geometry" x="330" y="710" width="540" height="90" />
+        </mxCell>
+        <mxCell id="edge-7" value="" edge="1" parent="1" source="services" target="session" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#617e9b;strokeWidth=2;fontColor=#264562;fontFamily=Microsoft YaHei;fontSize=17;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="boss" value="BOSS 直聘适配器&#10;HTTP 读取 + 按需浏览器&#10;搜索 / 详情 / 原生沟通" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#eaf4ff;strokeColor=#7ca8d2;strokeWidth=1.5;spacing=12;">
+          <mxGeometry as="geometry" x="100" y="880" width="430" height="110" />
+        </mxCell>
+        <mxCell id="company" value="公司官网适配器&#10;站点配置 + 公开页面&#10;职位列表 / 详情（只读）" vertex="1" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#152b43;fillColor=#eaf4ff;strokeColor=#7ca8d2;strokeWidth=1.5;spacing=12;">
+          <mxGeometry as="geometry" x="670" y="880" width="430" height="110" />
+        </mxCell>
+        <mxCell id="edge-8" value="" edge="1" parent="1" source="session" target="boss" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#617e9b;strokeWidth=2;fontColor=#264562;fontFamily=Microsoft YaHei;fontSize=17;labelBackgroundColor=#ffffff;exitX=0.25;exitY=1;entryX=0.5;entryY=0;dashed=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="465" y="840" />
+              <mxPoint x="315" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-9" value="" edge="1" parent="1" source="session" target="company" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#617e9b;strokeWidth=2;fontColor=#264562;fontFamily=Microsoft YaHei;fontSize=17;labelBackgroundColor=#ffffff;exitX=0.75;exitY=1;entryX=0.5;entryY=0;dashed=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="735" y="840" />
+              <mxPoint x="885" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
