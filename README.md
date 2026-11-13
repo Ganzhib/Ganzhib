@@ -81,6 +81,18 @@
     </tr>
     <tr>
       <td width="40%" valign="top">
+        <a href="https://ganzhib.github.io/recruitment-cli/"><img src="./assets/recruitment-cli-homepage.jpg" alt="recruitment-cli 官网 — 让合适的机会，更快进入对话。" width="320" /></a><br />
+        <a href="https://github.com/Ganzhib/recruitment-cli"><strong>recruitment-cli</strong></a><br />
+        <sub>Open Source · CLI / SDK / AI Recruitment</sub>
+      </td>
+      <td valign="top">
+        <strong>让合适的机会，更快进入对话。</strong><br /><br />
+        面向 AI 助手的求职与招聘工具，支持 BOSS 直聘岗位搜索、推荐候选人筛选与近期活跃度过滤，串联沟通计划、执行和回执；也可读取公司官网的公开职位。提供 CLI、SDK 与本地 AI 对话 Demo，账号登录状态保存在本机。<br /><br />
+        <a href="https://github.com/Ganzhib/recruitment-cli">源码 ↗</a> · <a href="https://ganzhib.github.io/recruitment-cli/">体验官网 ↗</a> · <a href="https://ganzhib.github.io/recruitment-cli/demo/">对话 Demo ↗</a> · <a href="https://github.com/Ganzhib/recruitment-cli/blob/main/docs/GETTING_STARTED.md">接入指南 ↗</a>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%" valign="top">
         <a href="https://github.com/Ganzhib/taoqi-pet"><img src="./assets/taoqi-pet-light.svg" alt="淘气桌宠 — 咕咕嘎嘎小男孩，陪在你的桌边。" width="320" /></a><br />
         <strong>淘气桌宠</strong><br />
         <sub>Desktop · Local First</sub>
